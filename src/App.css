@@ -1,0 +1,27 @@
+.main {
+    display: grid;
+    margin: 40px auto;
+    grid-template-columns: 3fr 7fr;
+    max-width: 80%;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 15px
+}
+
+.column-label {
+    color: rgba(0, 32, 51, 0.6) !important;
+}
+
+.canvas{
+    width: 100%;
+}
+
+canvas{
+    width: 100%;
+}
