@@ -4,9 +4,7 @@ const fetch_wrapper = {
 
 const fetchHeaders = () => {
     return {
-        'accept': 'application/json',
-        //'Access-Control-Allow-Origin': 'http://localhost:5173'
-        //'content-type': 'application/hal + json'
+        'accept': 'application/json'
     }
 }
 
