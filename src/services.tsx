@@ -53,9 +53,9 @@ function get(url: string) {
 
 export const queries = {
     list: async (): Promise<any> => {
-        return await fetch_wrapper.get(`football-match/last-name`)
+        return await fetch_wrapper.get(`last-name`)
     },
     result: async ({name, step, from, to}: { name: string, step: string, from: string, to: string }): Promise<any> => {
-        return await fetch_wrapper.get(`football-match/solve-ode?lastName=${name}&h=${step}&from=${from}&to=${to}`)
+        return await fetch_wrapper.get(`solve-ode?lastName=${name}&h=${step}&from=${from}&to=${to}`)
     },
 }
